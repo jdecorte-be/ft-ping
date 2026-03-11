@@ -6,28 +6,32 @@
 </h1>
 
 <p align="center">
+  <i>A high-fidelity re-implementation of the classic ICMP network utility in C, focusing on low-level network programming.</i>
+</p>
+
+<p align="center">
 <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/lang-C-blue?logo=c&logoColor=white&labelColor=000000"
-         alt="lang C">
+    <img src="https://img.shields.io/badge/Language-C-00599C?logo=c&logoColor=white&labelColor=000000"
+         alt="Language C">
+  </a>
+<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
+    <img src="https://img.shields.io/badge/GitHub-Stars-yellow?logo=github&logoColor=white&labelColor=000000"
+         alt="GitHub Stars">
   </a>
 <a href="https://github.com/jdecorte-be/ft-ping/actions">
-    <img src="https://img.shields.io/badge/build-passing-success?logo=github-actions&logoColor=white&labelColor=000000"
-         alt="build passing">
+    <img src="https://img.shields.io/badge/Build-Passing-brightgreen?logo=githubactions&logoColor=white&labelColor=000000"
+         alt="Build Passing">
   </a>
 <a href="https://hub.docker.com/r/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/docker-available-0db7ed?logo=docker&logoColor=white&labelColor=000000"
-         alt="docker available">
-  </a>
-<a href="https://github.com/jdecorte-be/ft-ping/actions">
-    <img src="https://img.shields.io/badge/tests-passing-success?labelColor=000000"
-         alt="tests passing">
+    <img src="https://img.shields.io/badge/Docker-Available-0db7ed?logo=docker&logoColor=white&labelColor=000000"
+         alt="Docker Available">
   </a>
 </p>
 
 <p align="center">
 <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/status-active-informational?logo=github&logoColor=white&labelColor=000000"
-         alt="status active">
+    <img src="https://img.shields.io/badge/Status-Active%20Development-orange?logo=github&logoColor=white&labelColor=000000"
+         alt="Status Active Development">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/badge/topic-c--language-000000?logo=github&logoColor=white"
