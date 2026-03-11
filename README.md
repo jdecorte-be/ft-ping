@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/topic-ICMP%20Utility-000000?logo=network-wired&logoColor=white" alt="ICMP Utility"></a>
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/platform-Linux-000000?logo=linux&logoColor=white" alt="Platform"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/issues-open%20issues-000000?logo=issue-opened&logoColor=white" alt="Open Issues"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/license-MIT-000000?logo=open-source-initiative&logoColor=white" alt="License"></a>
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=yellow" alt="Stars"></a>
 </p>
 
@@ -17,7 +17,7 @@
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/last-commit/jdecorte-be/ft-ping?logo=clock&logoColor=white&labelColor=000000&color=blue" alt="Last Commit"></a>
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/repo-size/jdecorte-be/ft-ping?logo=database&logoColor=white&labelColor=000000&color=purple" alt="Repo Size"></a>
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/languages/top/jdecorte-be/ft-ping?logo=code&logoColor=white&labelColor=000000&color=green" alt="Top Language"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/license-MIT-000000?logo=open-source-initiative&logoColor=white" alt="License"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/issues-open%20issues-000000?logo=issue-opened&logoColor=white" alt="Open Issues"></a>
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
