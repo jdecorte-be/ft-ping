@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/jdecorte-be/ft_ping"><img src="assets/banner.png" alt="ft_ping" ></a>
+  <a href="https://github.com/jdecorte-be/ft_ping"><img src="./assets/banner.png" alt="ft_ping" ></a>
   <br>
   ft_ping
 </h1>
