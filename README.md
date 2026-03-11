@@ -1,4 +1,3 @@
-
 <!-- README_HEADER_START -->
 <header>
 <h1 align="center">
@@ -34,6 +33,7 @@
 </p>
 </header>
 <!-- README_HEADER_END -->
+
 <!-- README_HEADER_END -->
 <p align="center">
     <a href="https://github.com/jdecorte-be/ft_ping"><img src="https://shields.io/badge/Architecture-Monolithic-blue?labelColor=000000&logo=cpu&logoColor=white" alt="Architecture"></a>
