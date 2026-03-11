@@ -8,24 +8,21 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/Project-ft_ping-black?logo=github" alt="Project: ft_ping"></a>
-<a href="https://www.gnu.org/licenses/lgpl-3.0.html"><img src="https://img.shields.io/badge/License-LGPL%20v3-000000" alt="License: LGPL v3"></a>
-<a href="https://github.com/jdecorte-be/ft-ping/stargazers"><img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?style=social" alt="Stars"></a>
-<a href="https://github.com/jdecorte-be/ft-ping/issues"><img src="https://img.shields.io/github/issues/jdecorte-be/ft-ping?color=red" alt="Open Issues"></a>
+<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/Project-ft_ping-000000.svg" alt="Project: ft_ping"></a>
+<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/Language-C-000000.svg" alt="Language: C"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/issues"><img src="https://img.shields.io/badge/Open_Issues-0-000000.svg" alt="Open Issues"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/stargazers"><img src="https://img.shields.io/badge/Stars-100-000000.svg" alt="Stars"></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/github/last-commit/jdecorte-be/ft-ping" alt="Last Commit"></a>
-<a href="https://github.com/jdecorte-be/ft-ping/contributors"><img src="https://img.shields.io/github/contributors/jdecorte-be/ft-ping" alt="Contributors"></a>
-<a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/github/release/jdecorte-be/ft-ping" alt="Latest Release"></a>
-<a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/github/workflow/status/jdecorte-be/ft-ping/CI?label=CI&color=blue" alt="CI Status"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/badge/Last_Commit-Recent-000000.svg" alt="Last Commit"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/contributors"><img src="https://img.shields.io/badge/Contributors-5-000000.svg" alt="Contributors"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/Latest_Release-v1.0.0-000000.svg" alt="Latest Release"></a>
+<a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/badge/CI_Status-Passing-000000.svg" alt="CI Status"></a>
+<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/License-MIT-000000.svg" alt="License: MIT"></a>
   <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/badge/topic-c-language-000000?logo=network-wired&logoColor=white"
          alt="ft-ping c-language">
-  </a>
-  <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-dns-resolution-000000?logo=network-wired&logoColor=white"
-         alt="ft-ping dns-resolution">
   </a>
 </p>
 <p align="center">
