@@ -7,18 +7,18 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/project-ft_ping-black.svg" alt="Project: ft_ping"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/issues"><img src="https://img.shields.io/badge/issues-0%20open-yellow.svg" alt="Open Issues"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/stargazers"><img src="https://img.shields.io/badge/stars-100-yellow.svg" alt="Stars"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/project-ft_ping-000000.svg" alt="Project: ft_ping"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/badge/CI-Passing-000000.svg" alt="CI Status"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/stargazers"><img src="https://img.shields.io/badge/stars-100-000000.svg" alt="Stars"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/issues"><img src="https://img.shields.io/badge/issues-5-000000.svg" alt="Open Issues"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/badge/last_commit-2%20days%20ago-orange.svg" alt="Last Commit"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/network/members"><img src="https://img.shields.io/badge/contributors-5-orange.svg" alt="Contributors"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/release-v1.0.0-blue.svg" alt="Release Version"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/language-C-00599C.svg" alt="Language: C"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/badge/last_commit-1%20day%20ago-000000.svg" alt="Last Commit"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/network/members"><img src="https://img.shields.io/badge/contributors-3-000000.svg" alt="Contributors"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-000000.svg" alt="License"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/releases-1.0.0-000000.svg" alt="Release Version"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/language-C-000000.svg" alt="Language"></a>
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
