@@ -22,10 +22,7 @@
     <img src="https://img.shields.io/badge/docker-ready-0db7ed?labelColor=000000"
          alt="docker ready">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
-    <img src="https://img.shields.io/badge/stars-%E2%AD%90-yellow?labelColor=000000"
-         alt="stars ⭐">
-  </a>
+
 </p>
 
 <p align="center">
