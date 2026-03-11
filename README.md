@@ -1,3 +1,4 @@
+
 <!-- README_HEADER_START -->
 <header>
 <h1 align="center">
@@ -14,10 +15,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/badge/Last%20Commit-1%20day%20ago-000000.svg" alt="Last Commit"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/network/members"><img src="https://img.shields.io/badge/Contributors-10-000000.svg" alt="Contributors"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/Last%20Release-v1.0.0-000000.svg" alt="Last Release"></a>
   <a href="https://github.com/jdecorte-be/ft-ping/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-000000.svg" alt="License"></a>
   <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/Language-C-000000.svg" alt="Language: C"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/Latest%20Release-v1.0.0-000000.svg" alt="Latest Release"></a>
   <a href="https://github.com/jdecorte-be/ft-ping">
   <img src="https://shields.io/badge/topic-c-language-000000?logo=network-wired&logoColor=white" alt="ft-ping c-language">
 </a>
@@ -36,7 +37,6 @@
 </p>
 </header>
 <!-- README_HEADER_END -->
-
 **ft_ping** is a high-fidelity re-implementation of the classic ICMP network utility. Developed in C, this project serves as a deep dive into low-level network programming, specifically focusing on the **Internet Control Message Protocol (ICMP)** as defined in **RFC 792**. 
 
 The tool allows users to verify the reachability of a remote host and measure the round-trip time (RTT) for messages sent from the source host to a destination computer. It handles complex tasks such as packet construction, checksum calculation (RFC 1071), signal management, and precise statistical analysis of network latency.
