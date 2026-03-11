@@ -11,39 +11,45 @@
 
 <p align="center">
 <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Lang-C-blue?logo=c&logoColor=white&labelColor=000000"
-         alt="Lang C">
+    <img src="https://img.shields.io/badge/lang-C-blue?labelColor=000000"
+         alt="lang C">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/actions">
-    <img src="https://img.shields.io/badge/Build-passing-success?logo=githubactions&logoColor=white&labelColor=000000"
-         alt="Build passing">
+<a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/build-passing-success?labelColor=000000"
+         alt="build passing">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/tree/main/Dockerfile">
-    <img src="https://img.shields.io/badge/Docker-supported-blue?logo=docker&logoColor=white&labelColor=000000"
-         alt="Docker supported">
+<a href="https://github.com/jdecorte-be/ft-ping/blob/main/Dockerfile">
+    <img src="https://img.shields.io/badge/docker-ready-0db7ed?labelColor=000000"
+         alt="docker ready">
   </a>
-
+<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
+    <img src="https://img.shields.io/badge/stars-%E2%AD%90-yellow?labelColor=000000"
+         alt="stars ⭐">
+  </a>
 </p>
 
 <p align="center">
-
+<a href="https://github.com/jdecorte-be/ft-ping/commits/main">
+    <img src="https://img.shields.io/badge/last%20commit-recent-informational?labelColor=000000"
+         alt="last commit recent">
+  </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-c--language-000000?logo=github&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-c--language-66D9EF?logo=github&logoColor=white&labelColor=000000"
          alt="ft-ping c-language">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-dns--resolution-000000?logo=github&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-dns--resolution-66D9EF?logo=github&logoColor=white&labelColor=000000"
          alt="ft-ping dns-resolution">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-icmp-000000?logo=github&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-icmp-66D9EF?logo=github&logoColor=white&labelColor=000000"
          alt="ft-ping icmp">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
          alt="ft-ping license">
   </a>
-  <a href="https://github.com/jdecorte-be/ft-ping">
+  <a href="https://github.com/jdecorte-be/ft-ping/stargazers">
     <img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
          alt="ft-ping stars">
   </a>
