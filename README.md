@@ -1,3 +1,65 @@
+<header>
+<h1 align="center">
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src=".assets/banner.png" alt="ft-ping" ></a>
+  ft-ping
+  <br>
+</h1>
+
+<p align="center">
+<a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/Lang-C-blue?logo=c&logoColor=white&labelColor=000000"
+         alt="Lang C">
+  </a>
+<a href="https://github.com/jdecorte-be/ft-ping/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-007EC6?logo=opensourceinitiative&logoColor=white&labelColor=000000"
+         alt="License MIT">
+  </a>
+<a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/Status-Active-brightgreen?logo=github&logoColor=white&labelColor=000000"
+         alt="Status Active">
+  </a>
+<a href="https://en.wikipedia.org/wiki/ICMP">
+    <img src="https://img.shields.io/badge/Protocol-ICMP-orange?logo=wireshark&logoColor=white&labelColor=000000"
+         alt="Protocol ICMP">
+  </a>
+</p>
+
+<p align="center">
+<a href="https://github.com/jdecorte-be/ft-ping/blob/main/Makefile">
+    <img src="https://img.shields.io/badge/Build-Passing-success?logo=cmake&logoColor=white&labelColor=000000"
+         alt="Build Passing">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/topic-c-language-000000?logo=network-wired&logoColor=white"
+         alt="ft-ping c-language">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/topic-dns-resolution-000000?logo=network-wired&logoColor=white"
+         alt="ft-ping dns-resolution">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/topic-icmp-000000?logo=network-wired&logoColor=white"
+         alt="ft-ping icmp">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
+         alt="ft-ping stars">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping/forks">
+    <img src="https://img.shields.io/github/forks/jdecorte-be/ft-ping?logo=github&logoColor=white&labelColor=000000&color=66D9EF"
+         alt="ft-ping forks">
+  </a>
+</p>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#logic-flow">Logic Flow</a> •
+  <a href="#system-flow-diagram">System Flow Diagram</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#1-clone-the-repository">1. Clone the Repository</a>
+</p>
+</header>
 
 **ft_ping** is a high-fidelity re-implementation of the classic ICMP network utility. Developed in C, this project serves as a deep dive into low-level network programming, specifically focusing on the **Internet Control Message Protocol (ICMP)** as defined in **RFC 792**. 
 
