@@ -10,6 +10,8 @@
 </p>
 
 <p align="center">
+
+  
 <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/badge/lang-C-blue?labelColor=000000"
          alt="lang C">
@@ -22,6 +24,8 @@
     <img src="https://img.shields.io/badge/docker-ready-0db7ed?labelColor=000000"
          alt="docker ready">
   </a>
+
+  
 
 </p>
 
@@ -46,10 +50,7 @@
     <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
          alt="ft-ping license">
   </a>
-  <a href="https://github.com/jdecorte-be/ft-ping/stargazers">
-    <img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
-         alt="ft-ping stars">
-  </a>
+
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
