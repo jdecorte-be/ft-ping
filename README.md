@@ -10,47 +10,49 @@
 </p>
 
 <p align="center">
-
-  
-<a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/lang-C-blue?labelColor=000000"
-         alt="lang C">
+<a href="https://www.42.be">
+    <img src="https://img.shields.io/badge/42-School%20Project-00B8D4?logo=42&logoColor=white&labelColor=000000"
+         alt="42 School Project">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/build-passing-success?labelColor=000000"
-         alt="build passing">
+<a href="#">
+    <img src="https://img.shields.io/badge/Focus-Network%20Programming-555?logo=server&logoColor=white&labelColor=000000"
+         alt="Focus Network Programming">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/blob/main/Dockerfile">
-    <img src="https://img.shields.io/badge/docker-ready-0db7ed?labelColor=000000"
-         alt="docker ready">
+<a href="#">
+    <img src="https://img.shields.io/badge/Type-CLI%20Utility-blue?logo=gnubash&logoColor=white&labelColor=000000"
+         alt="Type CLI Utility">
   </a>
-
-  
-
+<a href="#">
+    <img src="https://img.shields.io/badge/Language-C-A8B9CC?logo=c&logoColor=white&labelColor=000000"
+         alt="Language C">
+  </a>
 </p>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping/commits/main">
-    <img src="https://img.shields.io/badge/last%20commit-recent-informational?labelColor=000000"
-         alt="last commit recent">
-  </a>
-  <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-c--language-66D9EF?logo=github&logoColor=white&labelColor=000000"
-         alt="ft-ping c-language">
-  </a>
-  <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-dns--resolution-66D9EF?logo=github&logoColor=white&labelColor=000000"
-         alt="ft-ping dns-resolution">
-  </a>
-  <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-icmp-66D9EF?logo=github&logoColor=white&labelColor=000000"
-         alt="ft-ping icmp">
+<a href="#">
+    <img src="https://img.shields.io/badge/Platform-Linux-FCC624?logo=linux&logoColor=white&labelColor=000000"
+         alt="Platform Linux">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
          alt="ft-ping license">
   </a>
-
+  <a href="https://github.com/jdecorte-be/ft-ping/stargazers">
+    <img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
+         alt="ft-ping stars">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping/issues">
+    <img src="https://img.shields.io/github/issues/jdecorte-be/ft-ping?logoColor=white&labelColor=000000&color=orange"
+         alt="ft-ping issues">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/github/repo-size/jdecorte-be/ft-ping?logo=database&logoColor=white&labelColor=000000&color=AE81FF"
+         alt="ft-ping repo size">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/github/languages/top/jdecorte-be/ft-ping?logo=code&logoColor=white&labelColor=000000&color=A6E22E"
+         alt="ft-ping top language">
+  </a>
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
