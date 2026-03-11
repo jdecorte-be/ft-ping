@@ -18,7 +18,7 @@
 <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/Latest_Release-v1.0.0-000000.svg" alt="Latest Release"></a>
 <a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/badge/CI_Status-Passing-000000.svg" alt="CI Status"></a>
 <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/License-MIT-000000.svg" alt="License: MIT"></a>
-<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/topic-c_language-000000?logo=network-wired&logoColor=white" alt="ft-ping c-language"></a>
+<a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/topic-icmp-000000?logo=network-wired&logoColor=white" alt="ft-ping icmp"></a>
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
