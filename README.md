@@ -22,17 +22,11 @@
     <img src="https://img.shields.io/badge/Docker-supported-blue?logo=docker&logoColor=white&labelColor=000000"
          alt="Docker supported">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
-    <img src="https://img.shields.io/badge/Stars-25-yellow?logo=github&logoColor=white&labelColor=000000"
-         alt="Stars 25">
-  </a>
+
 </p>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping/network/members">
-    <img src="https://img.shields.io/badge/Forks-5-blueviolet?logo=github&logoColor=white&labelColor=000000"
-         alt="Forks 5">
-  </a>
+
   <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/badge/topic-c--language-000000?logo=github&logoColor=white"
          alt="ft-ping c-language">
