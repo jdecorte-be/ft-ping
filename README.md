@@ -23,13 +23,13 @@
   </a>
 </p>
 <p align="center">
-  <a href="#overview">Overview</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#architecture">Architecture</a> •
   <a href="#logic-flow">Logic Flow</a> •
   <a href="#system-flow-diagram">System Flow Diagram</a> •
   <a href="#prerequisites">Prerequisites</a> •
-  <a href="#installation">Installation</a>
+  <a href="#installation">Installation</a> •
+  <a href="#1-clone-the-repository">1. Clone the Repository</a>
 </p>
 </header>
 <!-- README_HEADER_END -->
