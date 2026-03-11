@@ -1,3 +1,38 @@
+<!-- README_HEADER_START -->
+<header>
+<h1 align="center">
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src=".assets/banner.png" alt="ft-ping" ></a>
+  ft-ping
+  <br>
+</h1>
+
+  <p align="center">ft_ping is a high-fidelity re-implementation of the classic ICMP network utility for testing host reachability and measuring RTT.</p>
+
+<p align="center">
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=yellow" alt="ft-ping badge">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://shields.io/github/issues/jdecorte-be/ft-ping?logoColor=white&labelColor=000000&color=orange" alt="ft-ping badge">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://shields.io/github/repo-size/jdecorte-be/ft-ping?logo=database&logoColor=white&labelColor=000000&color=purple" alt="ft-ping badge">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://shields.io/github/languages/top/jdecorte-be/ft-ping?logo=code&logoColor=white&labelColor=000000&color=green" alt="ft-ping badge">
+  </a>
+</p>
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#logic-flow">Logic Flow</a> •
+  <a href="#system-flow-diagram">System Flow Diagram</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#installation">Installation</a>
+</p>
+</header>
+<!-- README_HEADER_END -->
 
 <!-- README_HEADER_END -->
 <p align="center">
