@@ -6,32 +6,32 @@
 </h1>
 
 <p align="center">
-  <i>A high-fidelity re-implementation of the classic ICMP network utility in C, focusing on low-level network programming.</i>
+  A high-fidelity re-implementation of the classic ICMP network utility in C, focusing on low-level network programming.
 </p>
 
 <p align="center">
 <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Language-C-00599C?logo=c&logoColor=white&labelColor=000000"
-         alt="Language C">
-  </a>
-<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
-    <img src="https://img.shields.io/badge/GitHub-Stars-yellow?logo=github&logoColor=white&labelColor=000000"
-         alt="GitHub Stars">
+    <img src="https://img.shields.io/badge/Lang-C-blue?logo=c&logoColor=white&labelColor=000000"
+         alt="Lang C">
   </a>
 <a href="https://github.com/jdecorte-be/ft-ping/actions">
-    <img src="https://img.shields.io/badge/Build-Passing-brightgreen?logo=githubactions&logoColor=white&labelColor=000000"
-         alt="Build Passing">
+    <img src="https://img.shields.io/badge/Build-passing-success?logo=githubactions&logoColor=white&labelColor=000000"
+         alt="Build passing">
   </a>
-<a href="https://hub.docker.com/r/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Docker-Available-0db7ed?logo=docker&logoColor=white&labelColor=000000"
-         alt="Docker Available">
+<a href="https://github.com/jdecorte-be/ft-ping/tree/main/Dockerfile">
+    <img src="https://img.shields.io/badge/Docker-supported-blue?logo=docker&logoColor=white&labelColor=000000"
+         alt="Docker supported">
+  </a>
+<a href="https://github.com/jdecorte-be/ft-ping/stargazers">
+    <img src="https://img.shields.io/badge/Stars-25-yellow?logo=github&logoColor=white&labelColor=000000"
+         alt="Stars 25">
   </a>
 </p>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Status-Active%20Development-orange?logo=github&logoColor=white&labelColor=000000"
-         alt="Status Active Development">
+<a href="https://github.com/jdecorte-be/ft-ping/network/members">
+    <img src="https://img.shields.io/badge/Forks-5-blueviolet?logo=github&logoColor=white&labelColor=000000"
+         alt="Forks 5">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/badge/topic-c--language-000000?logo=github&logoColor=white"
