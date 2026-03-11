@@ -7,17 +7,18 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/topic-ICMP%20Utility-000000?logo=network-wired&logoColor=white" alt="ICMP Utility"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/platform-Linux-000000?logo=linux&logoColor=white" alt="Platform"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/license-MIT-000000?logo=open-source-initiative&logoColor=white" alt="License"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/project-ft_ping-black.svg" alt="Project: ft_ping"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/issues"><img src="https://img.shields.io/badge/issues-0%20open-yellow.svg" alt="Open Issues"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/stargazers"><img src="https://img.shields.io/badge/stars-100-yellow.svg" alt="Stars"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/last-commit/jdecorte-be/ft-ping?logo=clock&logoColor=white&labelColor=000000&color=blue" alt="Last Commit"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/repo-size/jdecorte-be/ft-ping?logo=database&logoColor=white&labelColor=000000&color=purple" alt="Repo Size"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/github/languages/top/jdecorte-be/ft-ping?logo=code&logoColor=white&labelColor=000000&color=green" alt="Top Language"></a>
-  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://shields.io/badge/issues-open%20issues-000000?logo=issue-opened&logoColor=white" alt="Open Issues"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/commits/main"><img src="https://img.shields.io/badge/last_commit-2%20days%20ago-orange.svg" alt="Last Commit"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/network/members"><img src="https://img.shields.io/badge/contributors-5-orange.svg" alt="Contributors"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping/releases"><img src="https://img.shields.io/badge/release-v1.0.0-blue.svg" alt="Release Version"></a>
+  <a href="https://github.com/jdecorte-be/ft-ping"><img src="https://img.shields.io/badge/language-C-00599C.svg" alt="Language: C"></a>
 </p>
 <p align="center">
   <a href="#key-features">Key Features</a> •
