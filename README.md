@@ -7,47 +7,47 @@
 
 <p align="center">
 <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Lang-C-blue?logo=c&logoColor=white&labelColor=000000"
-         alt="Lang C">
+    <img src="https://img.shields.io/badge/lang-C-blue?logo=c&logoColor=white&labelColor=000000"
+         alt="lang C">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-007EC6?logo=opensourceinitiative&logoColor=white&labelColor=000000"
-         alt="License MIT">
+<a href="https://github.com/jdecorte-be/ft-ping/actions">
+    <img src="https://img.shields.io/badge/build-passing-success?logo=github-actions&logoColor=white&labelColor=000000"
+         alt="build passing">
   </a>
-<a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen?logo=github&logoColor=white&labelColor=000000"
-         alt="Status Active">
+<a href="https://hub.docker.com/r/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/docker-available-0db7ed?logo=docker&logoColor=white&labelColor=000000"
+         alt="docker available">
   </a>
-<a href="https://en.wikipedia.org/wiki/ICMP">
-    <img src="https://img.shields.io/badge/Protocol-ICMP-orange?logo=wireshark&logoColor=white&labelColor=000000"
-         alt="Protocol ICMP">
+<a href="https://github.com/jdecorte-be/ft-ping/actions">
+    <img src="https://img.shields.io/badge/tests-passing-success?labelColor=000000"
+         alt="tests passing">
   </a>
 </p>
 
 <p align="center">
-<a href="https://github.com/jdecorte-be/ft-ping/blob/main/Makefile">
-    <img src="https://img.shields.io/badge/Build-Passing-success?logo=cmake&logoColor=white&labelColor=000000"
-         alt="Build Passing">
+<a href="https://github.com/jdecorte-be/ft-ping">
+    <img src="https://img.shields.io/badge/status-active-informational?logo=github&logoColor=white&labelColor=000000"
+         alt="status active">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-c-language-000000?logo=network-wired&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-c--language-000000?logo=github&logoColor=white"
          alt="ft-ping c-language">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-dns-resolution-000000?logo=network-wired&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-dns--resolution-000000?logo=github&logoColor=white"
          alt="ft-ping dns-resolution">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
-    <img src="https://img.shields.io/badge/topic-icmp-000000?logo=network-wired&logoColor=white"
+    <img src="https://img.shields.io/badge/topic-icmp-000000?logo=github&logoColor=white"
          alt="ft-ping icmp">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-ping/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
+         alt="ft-ping license">
   </a>
   <a href="https://github.com/jdecorte-be/ft-ping">
     <img src="https://img.shields.io/github/stars/jdecorte-be/ft-ping?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
          alt="ft-ping stars">
-  </a>
-  <a href="https://github.com/jdecorte-be/ft-ping/forks">
-    <img src="https://img.shields.io/github/forks/jdecorte-be/ft-ping?logo=github&logoColor=white&labelColor=000000&color=66D9EF"
-         alt="ft-ping forks">
   </a>
 </p>
 <p align="center">
