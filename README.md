@@ -11,8 +11,8 @@
 
 <p align="center">
 <a href="https://www.42.be">
-    <img src="https://img.shields.io/badge/42-School%20Project-00B8D4?logo=42&logoColor=white&labelColor=000000"
-         alt="42 School Project">
+    <img src="https://img.shields.io/badge/School%20Project-00B8D4?logo=42&logoColor=white&labelColor=000000"
+         alt="School Project">
   </a>
 <a href="#">
     <img src="https://img.shields.io/badge/Focus-Network%20Programming-555?logo=server&logoColor=white&labelColor=000000"
