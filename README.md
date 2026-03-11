@@ -65,45 +65,45 @@
 </p>
 </header>
 
-**ft_ping** is a high-fidelity re-implementation of the classic ICMP network utility. Developed in C, this project serves as a deep dive into low-level network programming, specifically focusing on the **Internet Control Message Protocol (ICMP)** as defined in **RFC 792**. 
+**ft-ping** is a high-fidelity re-implementation of the classic `ping` utility, written in C. This project is a deep dive into low-level network programming, focusing on the Internet Control Message Protocol (ICMP) as defined in **RFC 792**.
 
-The tool allows users to verify the reachability of a remote host and measure the round-trip time (RTT) for messages sent from the source host to a destination computer. It handles complex tasks such as packet construction, checksum calculation (RFC 1071), signal management, and precise statistical analysis of network latency.
+The tool verifies the reachability of a remote host and measures the round-trip time (RTT) for packets sent to a destination. It handles packet construction, checksum calculation (RFC 1071), signal management, and precise statistical analysis of network latency.
 
 ## Key Features
 
-- **ICMP Echo Request/Reply Logic**: Implements the fundamental handshake of the ICMP protocol to determine host availability.
-- **Precision RTT Calculation**: Computes minimum, maximum, average, and standard deviation (mdev) of round-trip times using `gettimeofday` and advanced mathematical variance formulas.
-- **DNS Resolution**: Dynamically resolves hostnames to IPv4 addresses using `getaddrinfo`, ensuring compatibility with both IP strings and domain names.
-- **Dual Socket Support**: Implements a smart fallback mechanism. It attempts to open a `SOCK_RAW` socket (requiring root privileges) and gracefully falls back to `SOCK_DGRAM` if run as a standard user (where supported by the OS).
-- **Signal Handling**: Integrated `SIGINT` (Ctrl+C) interception to gracefully terminate the process and display a comprehensive statistical summary.
-- **Robust Checksumming**: Manual implementation of the 16-bit one's complement sum algorithm required for ICMP header integrity.
+-   **ICMP Echo Logic**: Implements the core ICMP echo request/reply mechanism to determine host availability.
+-   **DNS Resolution**: Resolves hostnames to IPv4 addresses using `getaddrinfo`, accepting both IP addresses and domain names as targets.
+-   **Dual Socket Support**: Intelligently attempts to open a `SOCK_RAW` socket (requiring root privileges) and gracefully falls back to `SOCK_DGRAM` if run as a standard user (where supported by the OS).
+-   **Precision RTT Statistics**: Calculates minimum, maximum, average, and mean deviation (mdev) of round-trip times using `gettimeofday`.
+-   **Robust Checksumming**: A manual implementation of the 16-bit one's complement sum algorithm ensures ICMP header integrity.
+-   **Graceful Shutdown**: Intercepts `SIGINT` (Ctrl+C) to terminate the process cleanly and display a comprehensive statistical summary.
 
 ## Architecture
 
 ### Logic Flow
 
-1.  **Initialization**: Parse CLI arguments using `argp`. 
-2.  **Resolution**: Convert the target hostname into a `sockaddr_in` structure.
-3.  **Privilege Management**: Initialize the ICMP socket. If root, use `SOCK_RAW`. If not, attempt `SOCK_DGRAM`. Drop privileges immediately after socket creation for security.
-4.  **Transmission Loop**: 
-    -   Construct an ICMP header.
-    -   Calculate the checksum.
-    -   Transmit the packet and record the timestamp.
-5.  **Reception Logic**: 
-    -   Monitor the socket for incoming data using `select` with a timeout.
-    -   Parse the received IP/ICMP header.
-    -   Validate the process ID and sequence number.
-    -   Calculate the elapsed RTT.
-6.  **Termination**: Calculate final variance and standard deviation of the session and exit.
+1.  **Initialization**: Parse command-line arguments.
+2.  **Resolution**: Resolve the target hostname into an IPv4 address and `sockaddr_in` structure.
+3.  **Socket Creation**: Initialize an ICMP socket. Attempt to use `SOCK_RAW` with root privileges, falling back to `SOCK_DGRAM` if necessary. Drop root privileges immediately after socket binding for enhanced security.
+4.  **Main Loop**:
+    *   Construct and timestamp an ICMP echo request packet.
+    *   Calculate the packet's checksum.
+    *   Transmit the packet using `sendto`.
+5.  **Reception**:
+    *   Wait for an incoming packet using `select` with a timeout.
+    *   Receive the packet and parse the IP/ICMP headers.
+    *   Validate the packet's process ID and sequence number.
+    *   Calculate and display the RTT.
+6.  **Termination**: Upon receiving `SIGINT`, calculate the final statistics (including variance and standard deviation) and print a summary before exiting.
 
 ### System Flow Diagram
 
 ```mermaid
 graph TD
-    A[Start] --> B[Parse Command Line Arguments]
-    B --> C[DNS Resolution: getaddrinfo]
+    A[Start] --> B[Parse Command-Line Arguments]
+    B --> C[DNS Resolution via getaddrinfo]
     C --> D[Initialize Socket: RAW/DGRAM]
-    D --> E[Set Signals: SIGINT]
+    D --> E[Set Signal Handler: SIGINT]
     E --> F[Send ICMP Echo Request]
     F --> G[Wait for Response: select/recvmsg]
     G --> H{Valid Reply?}
@@ -118,73 +118,86 @@ graph TD
 
 ## Prerequisites
 
-To build and run **ft_ping**, you need the following environment:
-- **OS**: Linux (Debian/Ubuntu recommended)
-- **Compiler**: GCC (support for C99 or later)
-- **Libraries**: `libc6-dev`
-- **Permissions**: Root privileges are required for `SOCK_RAW` usage, or `cap_net_raw` capabilities must be set on the executable.
+-   **Operating System**: Linux (developed and tested on Debian/Ubuntu)
+-   **Compiler**: GCC (C99 standard or later)
+-   **Build Tools**: `make`
+-   **Libraries**: `libc6-dev`
+-   **Permissions**: Root privileges (`sudo`) or `cap_net_raw` capabilities are required for `SOCK_RAW` functionality.
 
-## Installation
+## Installation and Building
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/yourusername/ft_ping.git
-cd ft_ping
+git clone https://github.com/jdecorte-be/ft-ping.git
+cd ft-ping
 ```
 
 ### 2. Build the Executable
+
 Use the provided `Makefile` to compile the source code.
+
 ```bash
 make
 ```
-*Expected output:*
-```text
-Compiling: srcs/main.c
-Compiling: srcs/ping.c
-Linking: ft_ping
-Build complete!
+
+The compiled binary `ft_ping` will be created in the root directory.
+
+### 3. Set Capabilities (Optional)
+
+To run `ft_ping` without `sudo`, you can grant the executable the required network capabilities:
+
+```bash
+sudo setcap cap_net_raw+ep ./ft_ping
 ```
 
-### 3. Docker Environment (Optional)
-If you wish to test in a clean environment, use the provided `Dockerfile`:
+### Docker Environment (Optional)
+
+To build and run the project in an isolated Docker container:
+
 ```bash
 docker-compose up --build
 ```
 
-## Usage Guide
+## Usage
 
-### Basic Command
+The command syntax is designed to be similar to the standard `ping` utility.
+
+### Basic Usage
+
 ```bash
+# Using sudo
 sudo ./ft_ping google.com
+
+# Or with capabilities set
+./ft_ping 8.8.8.8
 ```
 
-### Verbose Mode
-To see detailed packet information (including ID and sequence tracking):
-```bash
-./ft_ping -v 8.8.8.8
-```
+### Options
 
-### Key Function Parameters
-
--   `int send_echo_icmp(t_ping *ping)`: Constructs the ICMP header. It sets `icmp->type = ICMP_ECHO` and maps the `ping->pid` to the `icmp->un.echo.id` to identify returned packets.
--   `int recv_echo_icmp(t_ping *ping)`: Utilizes `recvmsg` and `CMSG_DATA` to extract the **TTL** (Time To Live) from the packet's ancillary data when using raw sockets.
--   `int checksum(uint16_t *buf, int len)`: Performs a 16-bit sum of the header, handles odd-byte lengths, and returns the one's complement.
+| Flag | Description                  | Example                      |
+| :--- | :--------------------------- | :--------------------------- |
+| `-v` | **Verbose mode**. Prints detailed packet information. | `./ft_ping -v google.com`    |
+| `-h` | **Help**. Displays the usage message and options. | `./ft_ping -h`               |
 
 ## Troubleshooting
 
-| Issue | Cause | Resolution |
-| :--- | :--- | :--- |
-| `Lacking privilege for icmp socket` | Missing root or capabilities | Run with `sudo` or use `setcap cap_net_raw+ep ft_ping` |
-| `unknown host` | DNS failure or No Network | Verify `/etc/resolv.conf` and active internet connection |
-| `checksum mismatch` | Corrupted packet or logic error | Ensure the data buffer is zeroed before checksum calculation |
-| `packet too short` | Malformed ICMP response | Check network MTU or if a firewall is stripping headers |
+| Issue                                | Probable Cause                               | Resolution                                                              |
+| :----------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------- |
+| `Lacking privilege for icmp socket`  | Missing root privileges or capabilities.     | Run with `sudo` or set capabilities using `setcap cap_net_raw+ep ft_ping`. |
+| `unknown host`                       | DNS resolution failed or no network access.  | Check your internet connection and DNS settings (e.g., `/etc/resolv.conf`). |
+| Checksum mismatch in received packet | Packet corruption or a logic error.          | Ensure the network is stable. If persistent, it may indicate a bug.     |
+| Packet reception timeout             | Host is down, or a firewall is blocking ICMP. | Verify the destination host is online and check firewall rules on both ends. |
 
 ## Roadmap
 
-- [ ] **IPv6 Support**: Integration of `ICMP6` and `AF_INET6` for modern network compatibility.
-- [ ] **Custom Payload**: Allow users to specify the number of bytes in the data segment.
-- [ ] **Adaptive Interval**: Implement a `-i` flag to change the transmission frequency from the default 1 second.
-- [ ] **Flood Mode**: Add a high-frequency `-f` mode for stress testing (superuser only).
+-   [ ] **IPv6 Support**: Add support for `ICMPv6` and `AF_INET6`.
+-   [ ] **Custom Payload Size**: Implement a `-s` flag to specify the data payload size.
+-   [ ] **Custom Interval**: Implement a `-i` flag to change the interval between packets.
+-   [ ] **Flood Mode**: Add a `-f` flag for high-frequency sending (superuser only).
+-   [ ] **Time To Live (TTL)**: Implement a `-t` flag to set the packet's TTL value.
+-   [ ] **Packet Count**: Add a `-c` flag to stop after sending a specific number of packets.
 
 ## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
